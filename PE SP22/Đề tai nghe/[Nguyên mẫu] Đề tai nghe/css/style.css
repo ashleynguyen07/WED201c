@@ -1,0 +1,81 @@
+.header-logo {
+    text-align: center;
+}
+
+.header-logo img {
+    width: 100px;
+    margin: 10px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.seller-items img {
+    width: 100%;
+}
+.seller-items{
+    border: solid 15px rgb(196, 169, 169);   
+}
+.content {
+    background-color: rgba(216, 210, 210, 0.5);
+    width: 263px;
+    margin-left: -15px;
+    margin-bottom: -25px;
+}
+.content h5 {
+    color: white;
+    padding-top: 10px;
+}
+.sale {
+    margin-top: 20px;
+}
+.sale-items img {
+    width: 100%;
+}
+/* .sale-items {
+    padding: 30px;
+} */
+
+.middle-img {
+    height: 360px;
+}
+.sale-content {
+    background-color: rgb(196, 169, 169);
+    padding-bottom: 10px;
+}
+.price {
+    color: red;
+}
+.title {
+    border-bottom: 1px solid;
+}
+.showroom {
+    margin-top: 10px;
+}
+.img-showroom {
+    width: 100%;
+}
+iframe {
+    width: 555px;
+    height: 416.25px;
+}
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    iframe {
+        width: 345px;
+        height: 258.75px;
+    }
+}
