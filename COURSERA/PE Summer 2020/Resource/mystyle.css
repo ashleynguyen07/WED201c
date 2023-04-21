@@ -1,0 +1,60 @@
+body{
+    font-size: 120%;
+}
+header,footer,.right,.left{
+    background-color: #add8e6;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+footer{
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 90%;
+}
+
+header{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.left, .right {
+    display: inline-block;
+}
+
+.left{
+    width: 20%;
+    padding-left: 0.2%;
+}
+.right{
+    width: 76%;
+    padding-left: 2%;
+}
+.right p::first-line{
+    color: blue;
+    font-weight: bold;
+}
+.left li{
+    text-align: center;
+    width: 98%;
+    background-color: blue;
+    list-style: none;
+    margin-bottom: 2px;
+    color: white;
+}
+.left li:hover{
+    background-color: rgb(145, 145, 145);
+    color: blue;
+}
+.left ul{
+    padding-left: 0;
+}

@@ -1,0 +1,39 @@
+header{
+	background-color: yellow;
+	text-align: center;
+	padding-bottom: 35px;
+	padding-top: 10px;
+}
+header h1{
+	margin-bottom: 50px;
+}
+header a{
+	background-color: white;
+	padding: 20px 12%;
+	border: 0.5px solid black;
+	border-radius: 50px;
+	text-decoration: none;
+	margin: 0 1%;
+}
+
+#left, #center{
+	display: inline-block; /*đứng với nhau trên cùng 1 hàng, block để set lại độ rộng mỗi đứa*/
+	width: 45%;
+	padding: 2%;
+	vertical-align: top;
+}
+
+footer{
+	margin-top: 30px;
+	text-align: center;
+	background-color: yellow;
+	padding-top: 15px;
+	padding-bottom: 1px;
+	text-transform: uppercase;
+}
+#para3{
+	color: blue;
+}
+#para2{
+	display: none;
+}

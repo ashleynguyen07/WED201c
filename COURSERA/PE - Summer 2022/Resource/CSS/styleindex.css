@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+.width100{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    color: red;
+}
+.seller{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+.seller-logo img{
+    height: 90%;
+}
+.seller-des{
+    padding-left: 2%;
+}
+.seller-des h2{
+    color: blue;
+}
+.seller-des p{
+    border-bottom: 1px dotted black;
+}
+.seller>div{
+    box-shadow: 0px 0px 3px 3px #afafaf;
+    width: 48%;
+    
+}
+.access{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.access-item{
+    box-shadow: 0px 0px 3px 3px #afafaf;
+    width: 22%;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color:cornflowerblue;
+    color: white;
+    padding-bottom: 10px;
+}
+#collums{
+    display: flex;
+}
+#collums p{
+    width: 50%;
+    line-height: 180%;
+}
+#collums span{
+    font-weight: bold;
+    font-size: 120%;
+}
+#collums p:first-child{
+    padding-left: 20%;
+}
+
+footer>p{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.btn{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.access-item img{
+    height: 290px;
+}
+
+.header{
+    justify-content: space-between;
+    display: flex;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    align-items: center;
+}
+.header-navbar{
+    width: 35%;
+}
+.header-navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header-navbar a{
+    text-decoration: none;
+    
+}
+.header-logo img{
+    height: 50px;
+}
+.header-form button{
+    background-color: black;
+    color: white;
+}
