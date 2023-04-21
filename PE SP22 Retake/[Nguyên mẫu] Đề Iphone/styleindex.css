@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.header-logo img {
+    width: 50%;
+}
+
+.header-logo {
+    margin-left: -150px;
+}
+
+.header-navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-navbar ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.menu-list {
+    grid-area: menu;
+}
+
+.best-seller {
+    grid-area: right-body1;
+}
+
+/* .item5 { grid-area: footer; } */
+
+.container {
+    display: grid;
+    grid-template-areas:
+        'menu right-body1 right-body1 right-body1 right-body1 right-body1';
+    /* gap: 10px; */
+    /* margin-bottom: 50px; */
+    /* padding-bottom: 0px; */
+}
+
+.menu-list .list h2 {
+    text-align: center;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    margin: 0px;
+}
+
+.menu {
+    background-color: rgb(207, 206, 206);
+    /* vertical-align: text-top; */
+    margin-top: -5px;
+    width: 70%;
+}
+
+.list ul li {
+    line-height: 25px;
+}
+
+.right-body h1 {
+    text-align: center;
+    color: rgb(5, 216, 216);
+    margin: 50px;
+}
+
+.best-seller-details {
+    /* width: 70%; */
+    display: flex;
+    padding: 5px 10px 10px 10px;
+    border: solid 1px rgb(246, 243, 243);
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.324);
+}
+.best-seller-details img {
+    width: 20%;
+}
+.best-seller {
+    margin: 0px 20px 50px -100px;
+}
+.content {
+    margin-left: 10px;
+}
+.content h3 {
+margin-top: 0px;
+}
+.content p {
+    text-align: justify;
+    line-height: 30px;
+    margin: 0px;
+}
+.access-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 70%;
+    margin-right: 100px;
+    padding-bottom: 30px;
+}
+.access-list img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.access-list .items {
+    border: solid 1px rgb(246, 243, 243);
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.324);
+    border-radius: 15px;
+    text-align: center;
+}
+.access-list-item {
+    padding-right: 30px;
+    /* height: 150px; */
+}
+.price {
+    color: red;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* margin: 30px 0px ; */
+    padding: 20px 0px;
+    line-height: 25px;
+}
